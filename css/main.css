@@ -233,10 +233,12 @@ main {
 @media (min-width: 1200px) {
   #div-1,
   #div-2{
+    flex: 1 50%;
       /* set your flex value to 1 50% */
   }
 
   #div-3 {
+    flex: 1 100%;
     /* set your flex value to 1 100% */
   }
 }
